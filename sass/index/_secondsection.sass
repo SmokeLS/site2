@@ -1,0 +1,50 @@
+.second-section
+	background: url('../img/Index/background2.jpg') center no-repeat
+	background-size: cover
+	min-height: 925px
+	max-width: 100%
+	&__container
+		padding-top: 96px
+		max-width: 1200px
+		margin: auto
+		text-align: center
+	&__main
+		color: #464646
+	&__advantages
+		padding-top: 64px
+		display: flex
+		justify-content: space-around
+	&__advantage
+		width: 314px
+		border: 2px solid $text-main-color
+		position: relative
+		&::before
+			content: ''
+			display: block
+			background: linear-gradient(135deg, transparent 20px, $text-main-color 0) right
+			background-size: 100% 100%
+			width: 30px
+			height: 30px
+			position: absolute
+			transform: rotate(-45deg) translate(-10px,-10px)
+			top: -15px
+			left: 50%
+		&::after
+			content: ''
+			display: block
+			background: linear-gradient(135deg, transparent 20px, #ff00ff 0) right
+			background-size: 100% 100%
+			width: 30px
+			height: 30px
+			position: absolute
+			transform: rotate(-45deg) translate(-25px,-25px)
+			top: -15px
+			left: 50%
+		&-title
+			padding: 30px 0
+			text-transform: uppercase
+			font-size: 32px
+			font-family: 'Nova Round',sans-serif
+		&-text
+			padding: 20px 15px
+			

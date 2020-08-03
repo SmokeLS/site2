@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: local('../fonts/OpenLight'), local('../fonts/OpenLight'),
+		url('../fonts/OpenLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans Italic';
+	src: local('../fonts/OpenLightItalic'), local('../fonts/OpenLightItalic'),
+		url('../fonts/OpenLightItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: local('../fonts/OpenBold'), local('../fonts/OpenBold'),
+		url('../fonts/OpenBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

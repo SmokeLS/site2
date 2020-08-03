@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Nova Round';
+	src: local('../fonts/NovaRound-Regular'), local('../fonts/NovaRound-Regular'),
+		url('../fonts/NovaRound-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

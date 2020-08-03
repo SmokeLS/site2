@@ -1,0 +1,42 @@
+@media(max-width: 992px)
+	.first-section
+		&__advantage
+			background: rgba(0,0,0,.4)
+			width: 100%
+			margin: 0
+		&__advantages
+			&::before,&::after
+				display: none
+		&__header
+			justify-content: center
+			padding-right: 40px
+			flex-direction: column
+		&__logo
+			align-self: flex-end
+	.second-section
+		&__advantages
+			flex-direction: column
+			justify-content: center
+			align-items: center
+	.footer
+		&__wrap
+			text-align: center
+		&__form
+			display: flex
+			text-align: center
+			&-input
+				width: 75%
+				display: inline-block
+	.fourth-section
+		&__title
+			padding-left: 0
+	.hidden-mobile
+		display: none
+	.show-mobile
+		display: block
+	.navbar_absolute,.navbar__footer_absolute
+		width: 100%
+	.contacts-section
+		padding-left: 20px
+	.contacts-section__main-information
+		font-size: 20px

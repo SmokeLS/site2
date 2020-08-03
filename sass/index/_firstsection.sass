@@ -1,0 +1,101 @@
+.first-section
+	background: url('../img/index/background1.jpg')
+	background-size: cover
+	min-height: 449px
+	max-width: 100%
+	&::after
+		content: ""
+		display: block
+		position: absolute
+		width: 100%
+		height: 2px
+		top: 120px
+		left: 0
+		background-color: rgba(255,255,255,.1)
+	&__container
+		max-width: 1200px
+		margin: auto
+	&__logo
+		color: #fff
+		font-size: 50px
+		text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.09)
+	&__header
+		padding-left: 60px
+		padding-right: 107px
+	&__nav
+		color: #fff
+	&__hyper
+		font-size: 22px
+		color: #fff
+		&:hover
+			text-decoration: none
+			color: $text-main-color
+	&__main
+		font-family: 'Open Sans', sans-serif
+		color: #fff
+		text-align: center
+		padding-top: 104px
+	&__title
+		font-size: 74px
+	&__subtitle
+		font-size: 48px
+	&__btns
+		padding-top: 47px
+		max-width: 380px
+		margin: auto
+		display: flex
+		justify-content: space-around
+	&__advantages
+		color: white
+		display: flex
+		overflow: hidden
+		position: relative
+		padding-top: 150px
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			width: 30px
+			height: 30px
+			background-color: #f0f0f0
+			z-index: 100
+			margin-left: calc(33.333% - 30px)
+			bottom: -15px
+			transform: rotate(45deg)
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 30px
+			height: 30px
+			z-index: 100
+			background-color: #f0f0f0
+			margin-left: calc(66.666% - 30px)
+			bottom: -15px
+			transform: rotate(45deg)
+	&__advantage 
+		padding: 57px 61px
+		background: rgba(0,0,0,.4)
+		background: linear-gradient(-135deg, transparent 15px,  rgba(0,0,0,.4) 0) right, linear-gradient(135deg, transparent 15px,  rgba(0,0,0,.4) 0) left
+		background-size: 50% 100%
+		background-repeat: no-repeat
+		min-width: 33.3333%
+		&-title
+			font-size: 32px
+.header
+	font-family: 'Nova Round',sans-serif;
+	display: flex
+	align-items: center
+	justify-content: space-between
+	font-style: italic
+	position: relative
+	min-height: 120px
+.btn
+  font-size: 20px
+  font-family: 'Nova Round',sans-serif;
+  color: rgb(0, 0, 0)
+  text-transform: uppercase
+  text-align: center
+  padding: 12px 30px
+  background-color: $text-main-color
+  border-radius: 50px
